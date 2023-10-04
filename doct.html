@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Upload Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Upload Documents</h1>
+    <p>Share your documents with others.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Documents</a></li>
+        <li><a href="#">Shared Documents</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section class="upload-form">
+        <h2>Upload a Document</h2>
+        <form action="#" enctype="multipart/form-data" method="post">
+            <label for="document">Select a Document:</label>
+            <input type="file" id="document" name="document" accept=".pdf, .doc, .docx,.exe,.java,.py">
+            
+            <label for="description">Document Description:</label>
+            <textarea id="description" name="description" rows="4"></textarea>
+            
+            <button type="submit">Upload</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Document Upload Page. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
